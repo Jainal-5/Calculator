@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, World!</title>
+</head>
+<body>
+    <table border="1">
+
+        <tr>
+            <td class="output" colspan="4">
+                <div id="display">
+                    
+                </div>
+                <div id="result">
+                    
+                </div>
+            </td>
+            
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="btnClicked(value)" value="1">1</button>
+            </td>
+            <td>
+                <button onclick="btnClicked(value)" value="2">2</button>
+            </td>
+            <td>
+                <button onclick="btnClicked(value)" value="3">3</button>
+            </td>
+            <td>
+                <button onclick="btnClicked(value)" value="+">+</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="btnClicked(value)" value="4">4</button>
+            </td>
+            <td>
+                <button onclick="btnClicked(value)" value="5">5</button>
+            </td>
+            <td>
+                <button onclick="btnClicked(value)" value="6">6</button>
+            </td>
+            <td>
+                <button onclick="btnClicked(value)" value="-">-</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="btnClicked(value)" value="7">7</button>
+            </td>
+            <td>
+                <button onclick="btnClicked(value)" value="8">8</button>
+            </td>
+            <td>
+                <button onclick="btnClicked(value)" value="9">9</button>
+            </td>
+            <td>
+                <button onclick="btnClicked(value)" value="X">X</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="btnClicked(value)" value="0">0</button>
+            </td>
+            <td>
+                <button onclick="btnClicked(value)" value="÷">÷</button>
+            </td>
+            <td class="last">
+                <button onclick="equals()">=</button>
+            </td>
+              <td class="last">
+                <button onclick="del()">del</button>
+            </td>
+        </tr>
+    </table>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

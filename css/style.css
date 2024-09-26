@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5px;
+}
+
+table {
+    border: 1px solid black;
+    font-size: 2em;
+    width:100%;
+    table-layout: fixed;
+}
+
+button {
+    width: 100%;
+    border-radius: 25px;
+}
+
+#result,#display {
+    width: 95%;
+    display: block;
+    text-align: right;
+    height: 50px;
+    overflow: auto;
+}
+
+.output{
+    overflow: auto;
+    width:100px;
+}
